@@ -1,0 +1,34 @@
+
+<div class="container">
+  <h1>Answer page</h1>
+
+  <div class="question">
+    <div class="bar">
+
+    </div>
+    <div class="questionsection">
+      <p>
+        <%= @question %>
+        <br>
+        - You
+      </p>
+    </div>
+  </div>
+  <br>
+
+  <div class="question">
+    <div class="bar">
+
+    </div>
+    <div class="answersection">
+      <p>
+        <%= @answer %>
+        <br>
+        - Coach's answer
+      </p>
+    </div>
+  </div>
+
+  <br>
+  <%= link_to "Ask another question", ask_path %>
+</div>
