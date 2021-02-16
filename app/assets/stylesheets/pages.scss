@@ -49,7 +49,7 @@ h1 {
 
 .bar {
   height: 100%;
-  background-color: darkgrey;
+  background-color: rgb(77, 219, 134);
   width: 7px;
 }
 
@@ -60,10 +60,21 @@ h1 {
 
 .answersection {
   padding-left: 20px;
-  background-color: lightyellow;
+  background-color: rgb(235, 250, 241);
   height: 100%;
   width: 100%;
 }
 
+.answerscontainer {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
 
-
+.answer {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

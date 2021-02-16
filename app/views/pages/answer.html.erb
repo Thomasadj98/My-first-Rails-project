@@ -1,6 +1,7 @@
 
 <div class="container">
   <h1>Answer page</h1>
+  <br>
 
   <div class="question">
     <div class="bar">
@@ -22,13 +23,17 @@
     </div>
     <div class="answersection">
       <p>
-        <%= @answer %>
+        Answer unknown... You should ask Daisy
         <br>
-        - Coach's answer
+        - Daisy's answer
       </p>
     </div>
   </div>
 
   <br>
-  <%= link_to "Ask another question", ask_path %>
+  <div class="answerscontainer">
+    <h3>What is her answer?</h3>
+    <a href="https://www.youtube.com/watch?v=l0U7SxXHkPY&ab_channel=FutureVEVO" class="answer">Yes</a>
+    <a href="https://www.youtube.com/watch?v=ZsT1it_dObI&ab_channel=LilBabyVEVO" class="answer">No</a>
+  </div>
 </div>
